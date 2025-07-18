@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ai-agents": {
+      "command": "python",
+      "args": ["/Users/david/projects/ai-agents/src/ai_agents/server.py"],
+      "env": {}
+    }
+  }
+}

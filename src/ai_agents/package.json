@@ -1,0 +1,16 @@
+{
+  "name": "ai-agents-mcp-server",
+  "version": "1.0.0",
+  "description": "Minimalistic MCP server agent",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "keywords": ["mcp", "server", "ai", "agent"],
+  "author": "",
+  "license": "MIT"
+}
