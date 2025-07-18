@@ -1,8 +1,11 @@
 {
   "mcpServers": {
     "ai-agents": {
-      "command": "python",
-      "args": ["/Users/david/projects/ai-agents/src/ai_agents/server.py"],
+      "command": "/bin/sh",
+      "args": [
+        "-c",
+        "cd /Users/david/projects/ai-agents && /Users/david/.local/bin/uv run src/ai_agents/server.py"
+      ],
       "env": {}
     }
   }
