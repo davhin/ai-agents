@@ -7,6 +7,14 @@
         "cd /Users/david/projects/ai-agents && /Users/david/.local/bin/uv run src/ai_agents/server.py"
       ],
       "env": {}
+    },
+    "flashcard-generator": {
+      "command": "/bin/sh",
+      "args": [
+        "-c",
+        "cd /Users/david/projects/ai-agents && /Users/david/.local/bin/uv run src/ai_agents/flashcard_server.py"
+      ],
+      "env": {}
     }
   }
 }

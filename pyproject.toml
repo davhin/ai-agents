@@ -11,10 +11,12 @@ dependencies = [
     "mcp[cli]>=1.11.0",
     "modal>=1.1.0",
     "pytest>=8.4.1",
+    "requests>=2.31.0",
 ]
 
 [project.scripts]
 ai-agents = "ai_agents:main"
+flashcard-server = "ai_agents.flashcard_server:main"
 
 [build-system]
 requires = ["hatchling"]
