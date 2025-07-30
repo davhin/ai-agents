@@ -12,11 +12,15 @@ dependencies = [
     "modal>=1.1.0",
     "pytest>=8.4.1",
     "requests>=2.31.0",
+    "psycopg2-binary>=2.9.0",
+    "pymysql>=1.0.0",
+    "pyodbc>=4.0.0",
 ]
 
 [project.scripts]
 ai-agents = "ai_agents:main"
 flashcard-server = "ai_agents.flashcard_server:main"
+database-server = "ai_agents.database_server:main"
 
 [build-system]
 requires = ["hatchling"]
